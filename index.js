@@ -3,7 +3,7 @@ const net = require('net');
 const Throttle = require('throttle');
 
 // --- ตั้งค่าให้ตรงกับ 3x-ui ของคุณ ---
-const VPS_HOST = '110.78.215.87';
+const VPS_HOST = 'nt.xq-vpn.com';
 const VPS_PORT = 80; // พอร์ต VLESS + WS ใน 3x-ui
 
 // จำกัดความเร็วเพื่อคุมงบประมาณ (Mbps)
