@@ -1,0 +1,15 @@
+{
+  "name": "vless-cloudrun-speedlimit",
+  "version": "1.0.0",
+  "description": "VLESS Relay with Speed Control for 1000 Users",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "throttle": "^1.0.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
